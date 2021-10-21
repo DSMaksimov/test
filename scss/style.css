@@ -149,7 +149,7 @@ header {
 
 .main__partners-link {
   width: 270px;
-  min-height: 120px;
+  height: 120px;
   border: 1px solid #EBEBF1;
   display: flex;
   justify-content: center;
@@ -159,4 +159,27 @@ header {
 }
 .main__partners-link:hover {
   box-shadow: -3px 0px 40px rgba(0, 0, 0, 0.1), 0px 0px 10px rgba(164, 164, 164, 0.03);
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 728px;
+  }
+
+  .main__partners {
+    gap: 20px;
+  }
+
+  .main__partners-link {
+    width: 229px;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    max-width: 335px;
+  }
+
+  .main__partners-link {
+    width: 335px;
+  }
 }/*# sourceMappingURL=style.css.map */

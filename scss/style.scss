@@ -1,8 +1,32 @@
 
 @import '_reset.scss';
 @import '_header.scss';
-@import '_main.scss'
+@import '_main.scss';
 
 
 
+@media (max-width: 768px) {
+    .container {
+        max-width: 728px;
+    }
+
+    .main__partners {
+        gap: 20px;
+    }
+
+    .main__partners-link {
+        width: 229px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 335px;
+    }
+
+    .main__partners-link {
+        width: 335px;
+    }
+}
 
