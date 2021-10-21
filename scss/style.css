@@ -235,7 +235,7 @@ header {
   }
 
   .header__left-minput {
-    min-width: 100%;
+    min-width: 86%;
     border-radius: 0;
     padding-left: 50px;
   }
