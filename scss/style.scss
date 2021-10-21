@@ -9,11 +9,9 @@
     .container {
         max-width: 728px;
     }
-
     .main__partners {
         gap: 20px;
     }
-
     .main__partners-link {
         width: 229px;
     }
@@ -24,9 +22,37 @@
     .container {
         max-width: 335px;
     }
-
     .main__partners-link {
         width: 335px;
+    }
+    .header__left-search {
+        display: none;
+    }
+    header {
+        height: 105px;
+        display: block;
+    }
+    .header__left {
+        width: 50px;
+    }
+    .heqder__right {
+        width: 60px;
+    }
+    .header__left-msearch {
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+    }
+    .header__left-mbtn{
+        margin-left: 20px;
+    }
+    .header__left-minput{
+        min-width: 100%;
+        border-radius: 0;
+        padding-left: 50px;
+    }
+    .heqder__right-human {
+        display: none;
     }
 }
 
