@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-family: 'Roboto';
+}
+a {
+    font-family: 'Roboto';
+    text-decoration: none;
+    cursor: pointer; 
+}
+ol, ul, li {
+    list-style-type: none; 
+}
+.fas, input, svg {
+    cursor: pointer; 
+}
+svg {
+    background-color: #fff;
+}
+input:focus-within {
+    outline: none; 
+}
+summary, input {
+    border: 0;
+    outline: none; 
+}
+summary:hover {
+    transition: 0.3s;
+    cursor: pointer; 
+}
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
